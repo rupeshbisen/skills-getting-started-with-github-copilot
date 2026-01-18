@@ -81,13 +81,28 @@ section h3 {
 }
 
 .participants-section ul {
-  padding-left: 20px;
+  padding-left: 0;
   margin-top: 5px;
+  list-style: none;
 }
 
 .participants-section li {
   margin-bottom: 3px;
   color: #444;
+  display: flex;
+  align-items: center;
+}
+
+.remove-participant {
+  color: #ff5252;
+  cursor: pointer;
+  margin-left: 8px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.remove-participant:hover {
+  text-decoration: underline;
 }
 
 .form-group {
